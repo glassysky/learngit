@@ -1,4 +1,3 @@
-Git is a distributed version control system.
-Git is free software distributed under the GPL.
-Git has a mutable index called stage.
-Git tracks changes.
+ Git 学习总结<br>
+ 1.安装git之后，通过<code>git config --global user.name "my name"<br>
+                          git config --global user.email "email@example.com"</code>
