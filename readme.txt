@@ -20,10 +20,10 @@
  17.通过 git rm filename　移除版本库文件
  18.通过 git checkout -- filename 用版本库里的版本替换工作区的版本
  19.通过 ssh-keygen -t rsa -C "youremail@example.com" 创建SSH key
- 20.通过 git remove add origin git@github.com:username/reponame.git 关联远程库
+ 20.通过 git remote add origin git@github.com:username/reponame.git 关联远程库
  21.通过 git push -u origin master 推送master分支所有内容（第一次）
  22.通过 git push origin master 推送（第二次及以后）
- 23.通过 git remote rm origin 删除远程的orgin
+ 23.通过 git remove rm origin 删除远程的orgin
  24.通过 git clone git@github.com:username/reponame.git 克隆一个仓库到本地
  25.master 为主分支，head 为当前分支
  26.分支改动，未提交之前，master不变；合并之后，master指向分支末端
