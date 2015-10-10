@@ -4,7 +4,7 @@
  初始配置git
  2.mkdir cd pwd 等命令与unix类似
  3.cd newfile 之后，通过 git init 来初始化仓库（空的）
- 4.通过 git add filename 来把改动添加到缓存区
+ 4.通过 git add filename 来把改动添加到缓存区（git add -A 可以track当前目录下，deleted or created的目录）
  5.通过 git commit filename -m "what you changed" 把改动提交到仓库
  6.通过 git status 查看当前缓存区状态
  7.通过 git diff filename 查看改动内容
